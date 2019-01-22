@@ -1,0 +1,17 @@
+2019-01-22 11:00:18.840 -03 [890] LOG:  listening on IPv6 address "::1", port 5432
+2019-01-22 11:00:18.841 -03 [890] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-01-22 11:00:18.841 -03 [890] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-01-22 11:00:18.900 -03 [892] LOG:  database system was shut down at 2019-01-21 17:02:46 -03
+2019-01-22 11:00:18.914 -03 [890] LOG:  database system is ready to accept connections
+2019-01-22 11:01:02.527 -03 [907] FATAL:  database "TwitterClone_development" does not exist
+2019-01-22 11:02:15.093 -03 [946] FATAL:  database "TwitterClone_development" does not exist
+2019-01-22 11:02:38.775 -03 [1057] FATAL:  lock file "postmaster.pid" already exists
+2019-01-22 11:02:38.775 -03 [1057] HINT:  Is another postmaster (PID 890) running in data directory "/usr/local/var/postgres"?
+2019-01-22 11:02:57.632 -03 [1062] FATAL:  database "TwitterClone_development" does not exist
+2019-01-22 11:07:22.563 -03 [1108] ERROR:  unrecognized configuration parameter "databases"
+2019-01-22 11:07:22.563 -03 [1108] STATEMENT:  show databases;
+2019-01-22 11:08:01.170 -03 [1117] FATAL:  lock file "postmaster.pid" already exists
+2019-01-22 11:08:01.170 -03 [1117] HINT:  Is another postmaster (PID 890) running in data directory "/usr/local/var/postgres"?
+2019-01-22 11:08:25.299 -03 [1123] FATAL:  database "TwitterClone_development" does not exist
+2019-01-22 11:31:56.457 -03 [1298] ERROR:  cached plan must not change result type
+2019-01-22 11:31:56.457 -03 [1298] STATEMENT:  SELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = $1 LIMIT $2
